@@ -1,0 +1,27 @@
+<table width="100%" height="<?PHP echo $tabs_height; ?>" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="17" height="19" valign="top" background="<?PHP echo $imgsurl; ?><?PHP if ( $_GET['id_tab']==$tabs_counter)  { echo "tab_left.png";} else { echo "tab_left_out.png";}  ?>"><table border="0" cellpadding="0" cellspacing="0" bgcolor="<?PHP echo $tabs_main; ?>">
+      <tr>
+        <td width="17" height="10" background="<?PHP echo $imgsurl; ?><?PHP if ( $_GET['id_tab']==$tabs_counter)  { echo "tab_top_left.png";} else { echo "tab_top_left_out.png";}  ?>">&nbsp;</td>
+      </tr>
+      
+    </table>
+    </td>
+    <td title="Haga click para ir a <?php echo $tab_name; ?>" align="center" valign="bottom" background="<?PHP echo $imgsurl; ?><?PHP if ( $_GET['id_tab']==$tabs_counter)  { echo "tab_top.png";} else { echo "tab_top_out.png";}  ?>">
+
+<? if ($id_tab==0) { ?>
+<a href="#<?PHP echo $id_tab; ?>" style="text-decoration:none"><font color="<?PHP if ( $_GET['id_tab']==$tabs_counter)  { echo $tabs_font_color2;} else { echo $tabs_font_color1;}  ?>" face="<?PHP echo $tabs_font; ?>" size="<?PHP echo $tabs_font_size; ?>"><b><? if ($tab_img) { echo '<img src="'.$imgsurl.$tab_img.'" border="0">&nbsp;';} ?><?PHP echo $tab_name ?></b></font></a>
+<? } else { ?>
+
+<a href="<?PHP echo $tab_direccion.'&id_tab='.$tabs_counter.'&direccion='.$tab_muestra; ?>" style="text-decoration:none"><font color="<?PHP if ( $_GET['id_tab']==$tabs_counter)  { echo $tabs_font_color2;} else { echo $tabs_font_color1;}  ?>" face="<?PHP echo $tabs_font; ?>" size="<?PHP echo $tabs_font_size; ?>"><b><? if ($tab_img) { echo '<img src="'.$imgsurl.$tab_img.'" border="0">&nbsp;';} ?><?PHP echo $tab_name ?></b></font></a> <? } ?>
+
+
+<br /></td>
+    <td width="17" valign="top" background="<?PHP echo $imgsurl; ?><?PHP if ( $_GET['id_tab']==$tabs_counter)  { echo "tab_right.png";} else { echo "tab_right_out.png";}  ?>"><table border="0" cellpadding="0" cellspacing="0" bgcolor="<?PHP echo $tabs_main; ?>">
+      <tr>
+        <td width="17" height="10" background="<?PHP echo $imgsurl; ?><?PHP if ( $_GET['id_tab']==$tabs_counter)  { echo "tab_top_right.png";} else { echo "tab_top_right_out.png";}  ?>">&nbsp;</td>
+      </tr>
+      
+    </table></td>
+  </tr>
+</table>

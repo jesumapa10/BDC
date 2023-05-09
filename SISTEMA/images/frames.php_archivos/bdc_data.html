@@ -1,0 +1,437 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+        <link rel="STYLESHEET" href="bdc_titulo_data/normal.css" type="text/css">
+
+        <script language="JavaScript" src="bdc_data_data/validar.js" type="text/javascript"></script>
+
+<script language="JavaScript" src="bdc_data_data/validar.html" type="text/javascript"></script>
+
+<script>
+function estado_nacimiento()
+{
+        if (document.datos.codg_pais_nac_per.selectedIndex == 100) {
+        datos.codg_pais_nac_per.value="$codg_pais_nac_per";
+        }
+        datos.submit();
+}
+
+function municipio_domicilio()
+{
+        if (document.datos.codg_est_dom_per.selectedIndex == 100) {
+        datos.codg_est_dom_per.value="$codg_est_dom_per";
+        }
+        datos.submit();
+}
+
+function parroquia_domicilio()
+{
+        if (document.datos.codg_mun_dom_per.selectedIndex == 100) {
+        datos.codg_est_mun_per.value="$codg_mun_dom_per";
+        }
+        datos.submit();
+}
+
+function finalizar()
+{
+input_box=confirm("¿Está seguro que desea Finalizar?");
+if (input_box==true)
+
+{
+        location = "../modulo_i/bdc_data.php";
+}
+
+}
+		
+function ingresar()
+{
+        datos.action.value="ins";
+        datos.pasada.value="1";
+
+
+}
+
+</script>
+
+<script language="JavaScript" src="bdc_data_data/calendario.js" type="text/javascript"></script>
+
+<script language="JavaScript" src="bdc_data_data/cal-barra.js" type="text/javascript"></script>
+
+<script language="JavaScript">
+        var c1 = new CodeThatCalendar(caldef1);
+</script>
+
+</head><body>
+
+<br>
+<br>
+<h2>Editar Ficha de Personal</h2>
+
+<table align="CENTER">
+<tbody><tr>
+<td>
+<p class="mini" align="CENTER">Nombre(s) y Apellido(s):</p>
+</td>
+
+<td>
+<p class="campo" align="CENTER">Mariela&nbsp;Zambrano de García&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</td>
+
+<td>
+<p class="mini" align="CENTER">Cédula:</p>
+</td>
+
+<td>
+<p class="campo" align="CENTER">V - 9.396.718&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</td>
+
+<td>
+<p class="mini" align="CENTER">Tipo de Trabajador:</p>
+</td>
+
+<td>
+<p class="campo" align="CENTER">Docente</p>
+</td>
+</tr>
+</tbody></table>
+<br>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td><style type="text/css">
+<!--
+body {
+	background-color: #FFFFEA;
+}
+-->
+</style>
+<table border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td><table height="25px" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="19" valign="top" width="17" background="bdc_data_data/tab_left_out.png"><table bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="10" width="17" background="bdc_data_data/tab_top_left_out.png">&nbsp;</td>
+      </tr>
+      
+    </tbody></table>
+    </td>
+    <td valign="bottom" align="center" background="bdc_data_data/tab_top_out.png">
+
+
+<a href="http://10.0.0.7/intranet/modulo_ii/bdc_edit_datos_personales.php?codg_per=9396718&amp;id_tab=1&amp;direccion=bdc_edit_datos_personales2.php" style="text-decoration: none;"><font color="NAVY" face="tahoma" size="1px"><b><img src="bdc_data_data/personal.png" border="0">&nbsp;Datos Personales</b></font></a> 
+
+<br></td>
+    <td valign="top" width="17" background="bdc_data_data/tab_right_out.png"><table bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="10" width="17" background="bdc_data_data/tab_top_right_out.png">&nbsp;</td>
+      </tr>
+      
+    </tbody></table></td>
+  </tr>
+</tbody></table>
+</td><td><table height="25px" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="19" valign="top" width="17" background="bdc_data_data/tab_left_out.png"><table bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="10" width="17" background="bdc_data_data/tab_top_left_out.png">&nbsp;</td>
+      </tr>
+      
+    </tbody></table>
+    </td>
+    <td valign="bottom" align="center" background="bdc_data_data/tab_top_out.png">
+
+
+<a href="http://10.0.0.7/intranet/modulo_ii/bdc_edit_datos_personales.php?codg_per=9396718&amp;id_tab=2&amp;direccion=bdc_edit_datos_academicos.php" style="text-decoration: none;"><font color="NAVY" face="tahoma" size="1px"><b><img src="bdc_data_data/estudios.png" border="0">&nbsp;Datos Academicos</b></font></a> 
+
+<br></td>
+    <td valign="top" width="17" background="bdc_data_data/tab_right_out.png"><table bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="10" width="17" background="bdc_data_data/tab_top_right_out.png">&nbsp;</td>
+      </tr>
+      
+    </tbody></table></td>
+  </tr>
+</tbody></table>
+</td><td><table height="25px" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="19" valign="top" width="17" background="bdc_data_data/tab_left_out.png"><table bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="10" width="17" background="bdc_data_data/tab_top_left_out.png">&nbsp;</td>
+      </tr>
+      
+    </tbody></table>
+    </td>
+    <td valign="bottom" align="center" background="bdc_data_data/tab_top_out.png">
+
+
+<a href="http://10.0.0.7/intranet/modulo_ii/bdc_edit_datos_personales.php?codg_per=9396718&amp;id_tab=3&amp;direccion=bdc_edit_datos_laborales.php" style="text-decoration: none;"><font color="NAVY" face="tahoma" size="1px"><b><img src="bdc_data_data/laborales.png" border="0">&nbsp;Datos Laborales</b></font></a> 
+
+<br></td>
+    <td valign="top" width="17" background="bdc_data_data/tab_right_out.png"><table bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="10" width="17" background="bdc_data_data/tab_top_right_out.png">&nbsp;</td>
+      </tr>
+      
+    </tbody></table></td>
+  </tr>
+</tbody></table>
+</td><td><table height="25px" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="19" valign="top" width="17" background="bdc_data_data/tab_left_out.png"><table bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="10" width="17" background="bdc_data_data/tab_top_left_out.png">&nbsp;</td>
+      </tr>
+      
+    </tbody></table>
+    </td>
+    <td valign="bottom" align="center" background="bdc_data_data/tab_top_out.png">
+
+
+<a href="http://10.0.0.7/intranet/modulo_ii/bdc_edit_datos_personales.php?codg_per=9396718&amp;id_tab=4&amp;direccion=bdc_edit_datos_gremiales.php" style="text-decoration: none;"><font color="NAVY" face="tahoma" size="1px"><b><img src="bdc_data_data/gremiales.png" border="0">&nbsp;Gremiales</b></font></a> 
+
+<br></td>
+    <td valign="top" width="17" background="bdc_data_data/tab_right_out.png"><table bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="10" width="17" background="bdc_data_data/tab_top_right_out.png">&nbsp;</td>
+      </tr>
+      
+    </tbody></table></td>
+  </tr>
+</tbody></table>
+</td><td><table height="25px" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="19" valign="top" width="17" background="bdc_data_data/tab_left_out.png"><table bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="10" width="17" background="bdc_data_data/tab_top_left_out.png">&nbsp;</td>
+      </tr>
+      
+    </tbody></table>
+    </td>
+    <td valign="bottom" align="center" background="bdc_data_data/tab_top_out.png">
+
+
+<a href="http://10.0.0.7/intranet/modulo_ii/bdc_edit_datos_personales.php?codg_per=9396718&amp;id_tab=5&amp;direccion=bdc_edit_datos_familiares.php" style="text-decoration: none;"><font color="NAVY" face="tahoma" size="1px"><b><img src="bdc_data_data/familiares.png" border="0">&nbsp;Familiares</b></font></a> 
+
+<br></td>
+    <td valign="top" width="17" background="bdc_data_data/tab_right_out.png"><table bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="10" width="17" background="bdc_data_data/tab_top_right_out.png">&nbsp;</td>
+      </tr>
+      
+    </tbody></table></td>
+  </tr>
+</tbody></table>
+</td><td><table height="25px" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="19" valign="top" width="17" background="bdc_data_data/tab_left.png"><table bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="10" width="17" background="bdc_data_data/tab_top_left.png">&nbsp;</td>
+      </tr>
+      
+    </tbody></table>
+    </td>
+    <td valign="bottom" align="center" background="bdc_data_data/tab_top.png">
+
+
+<a href="http://10.0.0.7/intranet/modulo_ii/bdc_edit_datos_personales.php?codg_per=9396718&amp;id_tab=6&amp;direccion=bdc_edit_datos_movimientos.php" style="text-decoration: none;"><font color="RED" face="tahoma" size="1px"><b><img src="bdc_data_data/movimientos.png" border="0">&nbsp;Movimientos</b></font></a> 
+
+<br></td>
+    <td valign="top" width="17" background="bdc_data_data/tab_right.png"><table bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="10" width="17" background="bdc_data_data/tab_top_right.png">&nbsp;</td>
+      </tr>
+      
+    </tbody></table></td>
+  </tr>
+</tbody></table>
+</td><td><table height="25px" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="19" valign="top" width="17" background="bdc_data_data/tab_left_out.png"><table bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="10" width="17" background="bdc_data_data/tab_top_left_out.png">&nbsp;</td>
+      </tr>
+      
+    </tbody></table>
+    </td>
+    <td valign="bottom" align="center" background="bdc_data_data/tab_top_out.png">
+
+
+<a href="http://10.0.0.7/intranet/modulo_ii/bdc_edit_datos_personales.php?codg_per=9396718&amp;id_tab=7&amp;direccion=bdc_edit_archivos_digitales.php" style="text-decoration: none;"><font color="NAVY" face="tahoma" size="1px"><b><img src="bdc_data_data/archivo.png" border="0">&nbsp;Archivos</b></font></a> 
+
+<br></td>
+    <td valign="top" width="17" background="bdc_data_data/tab_right_out.png"><table bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td height="10" width="17" background="bdc_data_data/tab_top_right_out.png">&nbsp;</td>
+      </tr>
+      
+    </tbody></table></td>
+  </tr>
+</tbody></table>
+</td></tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+</table><table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td valign="top" width="4" background="bdc_data_data/tab_left.png"><img src="bdc_data_data/tab_center.html" height="0" width="0"></td>
+    <td valign="middle" align="center" bgcolor="#ffffff"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td background="bdc_data_data/tab_top.png"></td>
+        <td valign="top" background="bdc_data_data/tab_top.png">&nbsp;</td>
+      </tr>
+    </tbody></table></td>
+    <td valign="top" width="17" background="bdc_data_data/tab_right.png"><table bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td height="10" width="17" background="bdc_data_data/tab_top_right_out.png"><table bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+            <tbody><tr>
+              <td height="10" width="17" background="bdc_data_data/tab_top_right.png">&nbsp;</td>
+            </tr>
+          </tbody></table></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table></td></tr></tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+</table><table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td valign="top" width="17" background="bdc_data_data/tab_left.png">&nbsp;</td>
+    <td valign="middle" align="center" bgcolor="#ffffff">
+
+
+
+
+
+        <link rel="STYLESHEET" href="bdc_titulo_data/normal.css" type="text/css">
+
+        <script language="JavaScript" src="bdc_data_data/validar.js" type="text/javascript"></script>
+<script>
+function eliminar93967184514()
+                                   {
+
+                                   input_box=confirm("¿Está seguro que desea Eliminar este Registro?");
+                                   if (input_box==true)
+                                   {
+                                          datos.action.value="elm";
+                                          datos.codg_mov.value="4514";
+                                          datos.submit();
+                                   }
+                                   }
+function agregar()
+        {
+         window.open("bdc_mini_add_mov_redireccionar.php?codg_per=9396718&codg_tip_mov=1","_blank","scrollbars=no,status=no,toolbar=no,directories=no,menubar=no,resizable=no,width=800,height=500")
+        }
+
+function finalizar()
+{
+input_box=confirm("¿Está seguro que desea Finalizar?");
+if (input_box==true)
+
+{
+       location = "../modulo_i/bdc_data.php";
+}
+
+}
+
+function regresar()
+        {
+        location = "bdc_edit_datos_personales.php?codg_per=9396718&id_tab=5&direccion=bdc_edit_datos_familiares.php";
+        }
+function siguiente()
+        {
+        location = "bdc_edit_datos_personales.php?codg_per=9396718&id_tab=7&direccion=bdc_edit_archivos_digitales.php";
+        }
+function consultar()
+{
+ window.open("bdc_consulta_mov_redireccionar.php?codg_per=9396718&codg_mov=4514","_blank","scrollbars=yes,status=no,toolbar=no,directories=no,menubar=no,resizable=yes,width=800,height=500")
+}
+
+function actualizar()
+        {
+        datos.submit()
+        }
+
+</script>
+<form method="post" name="datos" action="">
+<table align="CENTER">
+  <tbody><tr>
+    <td colspan="2"><div align="CENTER">
+      <p class="cabecera">Menú de Movimientos</p>
+    </div></td>
+  </tr>
+  <tr>
+   <td class="mini" width="196">Comisiones de Servicio</td>
+				<td width="29"><input name="codg_tip_mov" value="1" onchange="submit()" checked="checked" type="radio"></td>
+			  </tr>  <tr><td class="mini" width="196">Datos Académicos</td>
+				<td width="29"><input name="codg_tip_mov" value="2" onchange="submit()" type="radio"></td>
+			  </tr>  <tr><td class="mini" width="196">Datos Laborales</td>
+				<td width="29"><input name="codg_tip_mov" value="3" onchange="submit()" type="radio"></td>
+			  </tr>  <tr><td class="mini" width="196">Egresos</td>
+				<td width="29"><input name="codg_tip_mov" value="4" onchange="submit()" type="radio"></td>
+			  </tr>  <tr><td class="mini" width="196">Permisos</td>
+				<td width="29"><input name="codg_tip_mov" value="5" onchange="submit()" type="radio"></td>
+			  </tr>  <tr><td class="mini" width="196">Traslados</td>
+				<td width="29"><input name="codg_tip_mov" value="6" onchange="submit()" type="radio"></td>
+			  </tr>    
+  <tr>
+    <td class="mini" width="208">&nbsp;</td>
+    <td width="21">&nbsp;</td>
+  </tr>
+</tbody></table>
+<center><input class="mini" value="Agregar" onclick="agregar()" type="BUTTON">&nbsp;<input class="mini" value="Actualizar" onclick="actualizar()" type="BUTTON">&nbsp;<input class="mini" value="&lt;&lt; Regresar" onclick="regresar()" type="BUTTON">&nbsp;<input class="mini" value="Siguiente &gt;&gt;" onclick="siguiente()" type="BUTTON">&nbsp;<input class="mini" value="Finalizar" onclick="finalizar()" type="BUTTON"></center>
+
+        <p>
+          </p><table align="CENTER" border="0">
+        </table><table align="CENTER" border="0">
+                       <tbody><tr>
+                       <td colspan="3" width="650">
+                       <div align="CENTER"><p class="cabecera">Movimientos Registrados</p></div>
+                       </td>
+                       </tr>
+
+                       <tr>
+                       <td width="100"><p class="mini" align="CENTER">Tipo de Movimiento</p></td>
+                       <td width="120"><p class="mini" align="CENTER">Fecha de Registro</p></td><td width="40">&nbsp;</td>
+                       </tr> <tr>
+							   <td width="180"><p class="campo" align="CENTER">Comisiones de Servicio</p></td>
+							   <td width="180"><p class="campo" align="CENTER">12-09-2011</p></td><td><p class="mini" align="CENTER"><input name="codg_mov" value="4514" onclick="submit()" checked="checked" type="radio"></p></td></tr><tr>
+							   <td width="180"><p class="campo" align="CENTER">Comisiones de Servicio</p></td>
+							   <td width="180"><p class="campo" align="CENTER">20-07-2011</p></td><td><p class="mini" align="CENTER"><input name="codg_mov" value="4252" onclick="submit()" type="radio"></p></td></tr><tr>
+							   <td width="180"><p class="campo" align="CENTER">Datos Académicos</p></td>
+							   <td width="180"><p class="campo" align="CENTER">25-05-2011</p></td><td><p class="mini" align="CENTER"><input name="codg_mov" value="3689" onclick="submit()" type="radio"></p></td></tr><tr>
+							   <td width="180"><p class="campo" align="CENTER">Datos Laborales</p></td>
+							   <td width="180"><p class="campo" align="CENTER">02-10-1995</p></td><td><p class="mini" align="CENTER"><input name="codg_mov" value="693" onclick="submit()" type="radio"></p></td></tr><tr>
+                            <td colspan="3"><hr></td>
+                            </tr></tbody></table><input class="mini" onclick="consultar()" value="Consultar" type="BUTTON">&nbsp;<input class="mini" value="Eliminar" onclick="eliminar93967184514()" type="BUTTON">          <input name="action" value="" type="HIDDEN">
+          <input name="codg_per" value="9396718" type="HIDDEN">
+         
+        <p></p>
+        <p align="center"><br>
+        </p>
+</form>
+       
+</td>
+    <td valign="top" width="17" background="bdc_data_data/tab_right.png">&nbsp;</td>
+  </tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+</table><table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td valign="top" width="17" background="bdc_data_data/tab_left.png"><table height="40" bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td width="17" background="bdc_data_data/tab_down_left.png">&nbsp;</td>
+      </tr>
+      
+    </tbody></table>
+    </td>
+    <td valign="middle" align="center" background="bdc_data_data/tab_down.png">&nbsp;</td>
+    <td valign="top" width="17" background="bdc_data_data/tab_right.png"><table height="40" bgcolor="#ffffea" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td width="17" background="bdc_data_data/tab_down_right.png">&nbsp;</td>
+      </tr>
+      
+    </tbody></table></td>
+  </tr>
+</tbody></table>
+
+  
+
+<p>&nbsp;</p>
+<div style="position: absolute; clip: rect(0pt, 0pt, 0pt, 0pt); visibility: hidden; background-color: rgb(0, 0, 0); overflow: hidden; z-index: 200;"><div style="position: absolute; padding: 2px; font-family: Arial,arial,helvetica; font-size: 11px; cursor: pointer; visibility: inherit; z-index: 250; left: 1px; top: 1px;"></div><div style="position: absolute; padding: 2px; font-family: Arial,arial,helvetica; font-size: 11px; cursor: pointer; visibility: inherit; z-index: 250; left: 1px; top: 24px;"></div><div style="position: absolute; padding: 2px; font-family: Arial,arial,helvetica; font-size: 11px; cursor: pointer; visibility: inherit; z-index: 250; left: 1px; top: 47px;"></div><div style="position: absolute; padding: 2px; font-family: Arial,arial,helvetica; font-size: 11px; cursor: pointer; visibility: inherit; z-index: 250; left: 1px; top: 70px;"></div></div><div style="position: absolute; clip: rect(0pt, 0pt, 0pt, 0pt); visibility: hidden; background-color: rgb(0, 0, 0); overflow: hidden; z-index: 300;"><div style="position: absolute; padding: 2px; font-family: Arial; font-size: 10px; cursor: pointer; visibility: inherit; z-index: 350; left: 1px; top: 1px;"></div><div style="position: absolute; padding: 2px; font-family: Arial; font-size: 10px; cursor: pointer; visibility: inherit; z-index: 350; left: 1px; top: 22px;"></div><div style="position: absolute; padding: 2px; font-family: Arial; font-size: 10px; cursor: pointer; visibility: inherit; z-index: 350; left: 1px; top: 43px;"></div><div style="position: absolute; padding: 2px; font-family: Arial; font-size: 10px; cursor: pointer; visibility: inherit; z-index: 350; left: 1px; top: 64px;"></div><div style="position: absolute; padding: 2px; font-family: Arial; font-size: 10px; cursor: pointer; visibility: inherit; z-index: 350; left: 1px; top: 85px;"></div></div><div style="position: absolute; clip: rect(0pt, 0pt, 0pt, 0pt); visibility: hidden; background-color: rgb(0, 0, 0); overflow: hidden; z-index: 400;"><div style="position: absolute; padding: 2px; font-family: Arial; font-size: 10px; cursor: pointer; visibility: inherit; z-index: 450; left: 1px; top: 1px;"></div><div style="position: absolute; padding: 2px; font-family: Arial; font-size: 10px; cursor: pointer; visibility: inherit; z-index: 450; left: 1px; top: 22px;"></div></div></body></html>
