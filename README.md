@@ -9,4 +9,4 @@ acompañamiento pedagógico, desfunciones entre muchas otras gestiones de person
 
 Fue creado con el stack LAMP (Linux, Apache, MySQL, PHP 3.0 puro (sin ningún framework) con orientación a objetos y phpMyAdmin para administrar la BD)
 
-Fue creada por: Ing. Inform. Jesús Manuel Martínez Paredes 2008
+Fue creada por: Ing. Inform. Jesús Manuel Martínez Paredes 2023
